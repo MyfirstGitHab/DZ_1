@@ -1,0 +1,6 @@
+git init
+git config --local user.name "Alex"
+git config --local user.emaile 
+git status
+git add -A
+git commit -a -m"first commit"
