@@ -4,3 +4,6 @@ git config --local user.emaile
 git status
 git add -A
 git commit -a -m"first commit"
+
+git remote add origin https://github.com/MyfirstGitHab/DZ_1.git
+git push -u origin master
