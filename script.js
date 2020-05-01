@@ -11,8 +11,9 @@ let appData ={
     optionalExpenses:{},
     income : [] 
 }
+
 let i=0;
-while (i<1){
+do{
     let a1  = prompt("Введите обязательную статью расходов в этом месяце"),
         b1  = prompt("Во сколько обойдется?");
 
@@ -24,7 +25,7 @@ while (i<1){
         --i;
     }
     i++;
-};
+} while (i<2);
 
 moneyDay=money/30;
 alert("Ежедневный бюджет:" + moneyDay)
